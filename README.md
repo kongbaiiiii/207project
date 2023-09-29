@@ -28,6 +28,14 @@ of the stats.
 a given match or player. Here is the link to the documentation of this API:
 https://developer.riotgames.com/apis#account-v1
 - Here we have some screenshot of using tools to try out the API calls.
+  <img width="1499" alt="截屏2023-09-28 下午9 31 17" src="https://github.com/kongbaiiiii/207project/assets/71997418/a1f7c5d4-7e42-4bf8-9cd3-56dafdfe34d2">
+  This API call gives access to all data for a match, including kills, assists, deaths etc.
+  
+  <img width="1177" alt="截屏2023-09-28 下午9 46 58" src="https://github.com/kongbaiiiii/207project/assets/71997418/8e9bfcd4-d7e3-43c3-be0d-4828d197456e">
+  This API call gives basic information about a user account, including all sorts of ids, username, user level etc. 
+  <img width="1123" alt="截屏2023-09-28 下午9 53 22" src="https://github.com/kongbaiiiii/207project/assets/71997418/b2d3b68b-eca8-466e-9988-c1e1721bb6ed">
+  This API call gives information about a user's familiarity with each champion and the last time this champion was played
+
 - Here is our API call demo in Java:
 ```java
 import okhttp3.*;
