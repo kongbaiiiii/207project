@@ -2,26 +2,52 @@
 
 ## Project Idea
 League of Legends is a MOBA video game developed by Riot games, and it has become one of the most popular video games 
-in the world. It not only provides the players a perfect platform for social, and also gives the players a sense of 
-accomplishment when the players reach higher ranks. Hence, the players often need to check their performance on 
-recent matches. They might be curious about specific data which reflects their performance, for example, damage dealt,
-gold earned, damage taken etc. They might be also curious about the stats of the opponents and the teammates. 
+in the world. Beyond its engaging gameplay, League of Legends is notable for developing a thriving social environment 
+where players from around the world join together online to form friendships and rivalries. League of Legends is also a
+place for personal development and success. Players are inspired to work hard and improve by the appeal of reaching higher ranks and
+the thrill of competition within the game. The feeling of success a player has while reaching a new rank or performing well
+motivates them even more and helps them develop more.Hence, the players often need to check their performance on recent matches. 
+They might be curious about specific data which reflects their performance, for example, damage dealt, gold earned, 
+damage taken etc. They might be also curious about the stats of the opponents and the teammates. In the very competitive 
+world of League of Legends, understanding a champion's advantages and disadvantages, keeping track of win rates and appreciating
+the meta-game dynamics can make all the difference.
 
-League of Legends stats lookup applications such as u.gg and op.gg are very convenient tools that allow you to check the 
-stats on your mobile phone. However, these applications do not provide, or provide limited information about how your 
-performance changes overtime. 
+League of Legends stat lookup applications such as u.gg and op.gg have become essential tools to satisfy the thirst for 
+looking up stats or data. These applications provide a variety of stats that players may access directly on their mobile devices
+or computer. Although these applications offer insightful information about recent performances and general statistics 
+they do not provide, or provide limited information about how your performance changes over time. Peaks, plateaus, 
+and valleys are all part of a League of Legends player's journey, and there is an increasing demand for more advanced 
+tools that can highlight these patterns. The need for comprehensive analytic tools that can offer deeper insights into 
+a player's long-term gameplay journey is still evident as the League of Legends community continues to grow and develop.
 
-This inspires us to build our own version of League of Legends stats lookup application. We will build an application 
-such that:
-- Allows users to check any player's stats (recent matches, rank, average KDA, etc.) by the player's ID. 
-- Allow users to check the stats for a specific match, such as the damage dealt, damage taken, gold earned, wards placed, etc. for every player involved in this match.
-- Allows users to check any player's change in performance over time. The change in performance includes for example:
-  - Change in the common stats
-  - Change in rank
-  - Change in gaming frequency
-- Allows users to check their play styles (prefers combat or income). 
-- Has a clean UI which allow the user to access different information easily and provides the user a nice visualization
-of the stats.
+This inspires us to build our own version of League of Legends stats lookup application.  
+
+**Features:**
+1. **Player Stats Lookup:**
+   - Allows users to check any player's stats (recent matches, rank, average KDA, etc.) by the player's ID.
+2. **Match Details:**
+   - Allow users to check the stats for a specific match, such as the damage dealt, damage taken, gold earned, wards placed, etc. for every player involved in this match.
+3. **Check Performance Over Time:**
+   - Allows users to check any player's change in performance over time. The change in performance includes for example:
+     - Change in the common stats
+     - Change in rank
+     - Change in gaming frequency
+4. **Play-style Analysis:**
+   - Allows users to check their play styles (prefers combat or income).
+   - Checks for trends in champion selection, item builds, gameplay decision,etc
+5. **Intuitive User Interface:**
+   - Has a clean UI which allow the user to access different information easily and provides the user a nice visualization
+   of the stats.  
+  
+**Benefits of Our Application:**
+1. **Enhanced Player Experience:**
+   - Allows users to make better decisions regarding their gameplay, ultimately leading to an improved gaming experience.
+2. **In-Depth Analysis:**
+   - By our application offering comprehensive performance data and insights into plays-style, players can identify their
+   strengths and weaknesses allowing for improvement and development.
+3. **Real Time Updates:**
+   - Updates regularly which ensures that this application is up-to-date with the League of Legends game as it will maintain
+   its relevancy and usefulness as a valuable application for League of Legend players looking to enhance their experience.
 
 ## API Exploration
 - For this project, we are thinking of using the Riot Games API. It allows us to access for example, information about 
