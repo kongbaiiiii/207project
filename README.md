@@ -62,6 +62,3 @@ This API call will get a list of 'match ids' by 'puuid'. Here is the output:
 Response{protocol=http/1.1, code=200, message=OK, url=https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/NcmRba2CroVoIwC20pdtjUpkV-VmwCeLW7Tfy3jm6_Tpt_7ArCpKsMALsioBC3MROaJA-uI0_rGFPA/ids?start=0&count=20}
 ["NA1_4785227104","NA1_4784953825","NA1_4784442959","NA1_4784414771","NA1_4784357381","NA1_4784323721","NA1_4783528029","NA1_4781341135","NA1_4781151319","NA1_4781119049","NA1_4781092359","NA1_4781074209","NA1_4781056063","NA1_4780549194","NA1_4780531875","NA1_4780511262","NA1_4780304778","NA1_4780283900","NA1_4779486142","NA1_4779466080"]
 ```
-
-## Technical Problems (If Any)
-- A list of any technical problems blocking our progress.
